@@ -1,3 +1,8 @@
-<p>
-  upcoming-gigs works!
-</p>
+<ul>
+<li *ngFor="let gig of gigs">
+  <div>{{gig.Name}}</div>
+  <div>{{gig.Artist}}</div>
+  <div>{{gig.Location}}</div>
+  <div>{{gig.Time}}</div>
+</li>
+</ul>
