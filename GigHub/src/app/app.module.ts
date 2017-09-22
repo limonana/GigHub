@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { UpcomingGigsComponent } from './upcoming-gigs/upcoming-gigs.component';
+import { RouterModule, Routes } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { UpcomingGigsComponent } from './upcoming-gigs/upcoming-gigs.component';
     UpcomingGigsComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RouterModule.forRoot([{ path:'upcoming-gigs',component:UpcomingGigsComponent }])
   ],
   providers: [],
   bootstrap: [AppComponent]
