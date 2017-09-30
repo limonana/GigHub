@@ -13,5 +13,8 @@ const MockGigs: Gig[] = [
 
 
 export class UpcomingGigsComponent {
-  gigs = MockGigs;
+  gigs: Gig[];
+  constructor() {
+    this.gigs = MockGigs;
+  }
 }
