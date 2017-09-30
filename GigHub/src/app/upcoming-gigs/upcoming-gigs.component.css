@@ -1,0 +1,28 @@
+.Gig{
+    background-color: coral;
+    margin-top: 50px;
+    display: block;
+    color: black;
+}
+.ArtistImage{
+    width: 100px;
+    height: 100px;    
+}
+.Artist{
+    font-weight: bold;
+    font-size: xx-large;
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.GigDetails{
+    margin-left: 110px;
+}
+.Time{
+    display: inline;
+
+}
+.Location{
+    display: inline;
+
+}

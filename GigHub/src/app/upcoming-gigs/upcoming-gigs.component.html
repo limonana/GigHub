@@ -1,8 +1,11 @@
+<h1>Upcoming Gigs</h1>
 <ul>
-<li *ngFor="let gig of gigs">
-  <div>{{gig.Name}}</div>
-  <div>{{gig.Artist}}</div>
-  <div>{{gig.Location}}</div>
-  <div>{{gig.Time}}</div>
+<li *ngFor="let gig of gigs" class="Gig">
+  <img class="ArtistImage" src="https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?h=350&auto=compress&cs=tinysrgb">
+  <div class="GigDetails">
+    <a class="Artist" href="ArtistInfo/{{gig.Artist}}">{{gig.Artist}}</a>
+    <div class="Location">{{gig.Location}}</div>
+    <div class="Time">{{gig.Time}}</div>
+  </div>
 </li>
 </ul>
