@@ -11,6 +11,9 @@ h1{
     color: black;
     margin-bottom: 1em;
 }
+.GigDetails{
+    margin-left: 1em;
+}
 .ArtistLink{
     font-weight: bold;
     font-size: x-large;
