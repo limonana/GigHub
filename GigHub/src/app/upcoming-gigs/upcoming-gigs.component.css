@@ -1,5 +1,5 @@
 h1{
-    color: orangered;
+    color:#FF8000;
 }
 .GigsList{
     display: block;
@@ -7,16 +7,16 @@ h1{
     margin: auto;
 }
 .Gig{
-    background-color:  rgba(255,127,80,0.5);
+    background-color:#FFE6CC;
     display: block;
     color: black;
     margin-bottom: 1em;
 }
 .ArtistLink{
     font-weight: bold;
-    font-size: xx-large;
+    font-size: x-large;
     text-decoration: none;
-    color: black;
+    color: inherit;
 }
 .Time{
    
