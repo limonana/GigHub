@@ -1,20 +1,26 @@
+h1{
+    color: orangered;
+}
+.GigsList{
+    display: block;
+    padding: inherit;
+    margin: auto;
+}
 .Gig{
-    background-color: coral;
-    margin-top: 50px;
+    background-color:  rgba(255,127,80,0.5);
     display: block;
     color: black;
-    margin-left: 110px;
+    margin-bottom: 1em;
 }
-.Artist{
+.ArtistLink{
     font-weight: bold;
     font-size: xx-large;
     text-decoration: none;
     color: black;
-    display: block;
 }
 .Time{
-    display: inline;
+   
 }
 .Location{
-    display: inline;
+   
 }

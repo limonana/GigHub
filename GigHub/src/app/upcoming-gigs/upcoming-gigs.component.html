@@ -1,7 +1,7 @@
 <h1>Upcoming Gigs</h1>
-<ul>
+<ul class="GigsList">
 <li *ngFor="let gig of gigs" class="Gig">
-    <a class="Artist" href='#'>{{gig.Artist}}</a>
+    <a class="ArtistLink" href='#'>{{gig.Artist}}</a>
     <div class="Location">{{gig.Location}}</div>
     <div class="Time">{{gig.Time}}</div>
 </li>
