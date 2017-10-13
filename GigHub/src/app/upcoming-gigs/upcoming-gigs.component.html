@@ -3,8 +3,8 @@
     <li *ngFor="let gig of gigs" class="card Gig">
         <div class="GigDetails">
             <h3><a class="ArtistLink" href='#'>{{gig.Artist}}</a></h3>                
-            <p>{{gig.Location}}</p>
-            <p>{{gig.Time}}</p>
+            <div>{{gig.Location}}</div>
+            <div>{{gig.Time}}</div>
         </div>
     </li>
 </ul>
