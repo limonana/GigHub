@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Gig } from '../model/Gig';
 const MockGigs: Gig[] = [
-  { Artist: 'Developer', Location: 'LAB', Time: 'TODAY 6:00 PM', Genre: '', Description: '' },
-  { Artist: 'Taylor Swift', Location: 'US', Time: 'TODAY 6:00 PM', Genre: '', Description: '' }
+  { Artist: 'developer', Location: 'LAB', Time: 'TODAY 6:00 PM', Genre: '', Description: '' },
+  { Artist: 'taylor swift', Location: 'US', Time: 'TODAY 6:00 PM', Genre: '', Description: '' }
 ];
 
 @Component({
