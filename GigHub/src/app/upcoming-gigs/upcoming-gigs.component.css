@@ -37,17 +37,17 @@ h1,h2,h3,h4,h5,h6{
 }
 .GoingButton{
     background-color: #ff7600;
-    
+    cursor: pointer;
+
     position: absolute;      
     right: 2%;
     top: 50%;    
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%);
 
-
     color: white;
     font-weight: bold;
-    font-size: large;
+    font-size: large;    
 }
 .GoingButton:hover{
     background-color: orangered;
