@@ -9,12 +9,13 @@ h1,h2,h3,h4,h5,h6{
     list-style-type: none;   
     padding: inherit;    
 }
-.Gig{
+.GigCard{
     background-color:#FFE6CC;
     color: black;
     margin-bottom: 1em;
     display: -webkit-flex;
     display: flex;
+    position: relative;   
 }
 .GigDetails{
     margin-left: 1em;
@@ -29,4 +30,18 @@ h1,h2,h3,h4,h5,h6{
 .Thumbnail{
     width: 100px;
     height: 100px;
+}
+.GoingButton{
+    background-color: #FF8000;
+    
+    position: absolute;      
+    right: 2%;
+    top: 50%;    
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+
+
+    color: white;
+    font-weight: bold;
+    font-size: large;
 }
