@@ -13,6 +13,8 @@ h1,h2,h3,h4,h5,h6{
     background-color:#FFE6CC;
     color: black;
     margin-bottom: 1em;
+    display: -webkit-flex;
+    display: flex;
 }
 .GigDetails{
     margin-left: 1em;
@@ -23,4 +25,8 @@ h1,h2,h3,h4,h5,h6{
     text-decoration: none;
     color: inherit;
     text-transform: capitalize;
+}
+.Thumbnail{
+    width: 100px;
+    height: 100px;
 }

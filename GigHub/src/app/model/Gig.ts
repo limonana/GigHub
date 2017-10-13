@@ -4,4 +4,5 @@ export class Gig {
     Artist: string;
     Genre: string;
     Description: string;
+    ImageURL: string;
 }
