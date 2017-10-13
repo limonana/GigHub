@@ -36,8 +36,7 @@ h1,h2,h3,h4,h5,h6{
     height: 100px;
 }
 .GoingButton{
-    background-color: #ff7600;
-    cursor: pointer;
+    background-color: #ff7600;   
 
     position: absolute;      
     right: 2%;
@@ -61,6 +60,8 @@ h1,h2,h3,h4,h5,h6{
     border: 0;
     margin: 0;
     background-color: initial;
+}
 
+button{
     cursor: pointer;
 }
