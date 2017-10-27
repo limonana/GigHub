@@ -9,6 +9,7 @@ h1,h2,h3,h4,h5,h6{
 .GigCard{
     background-color:#FFE6CC;
     color: black;
+    
     margin-bottom: 1rem;   
     
     display: flex;
@@ -62,7 +63,7 @@ h1,h2,h3,h4,h5,h6{
     border: 0;
     margin: 0;
 
-    background-color: initial;
+    background: rgba(76, 175, 80, 0); /*TRANSPERT BAKCGORUND*/
 }
 .ExpendButton:hover{
     font-weight: bold;
