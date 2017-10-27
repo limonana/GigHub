@@ -9,18 +9,24 @@ h1,h2,h3,h4,h5,h6{
     list-style-type: none;   
     padding: inherit;    
 }
+
 .GigCard{
     background-color:#FFE6CC;
     color: black;
     margin-bottom: 1em;   
+    
     display: flex;
+    position: relative;
 }
 .GigCard:hover{
     border: 1px solid orange;    
     box-shadow: 5px 5px 5px #aaaaaa;
 }
+
+
 .GigDetails{
     margin-left: 1em;
+    margin-right: 1em;
     flex-grow: 1;
 }
 .ArtistLink{
@@ -34,25 +40,31 @@ h1,h2,h3,h4,h5,h6{
     width: 100px;
     height: 100px;
 }
+.ActionArea{
+    display: flex;   
+    align-items: center;
+   
+    /*justify-content: center; */
+       
+    margin-right: 1rem;
+    margin-left: 1rem; 
+}
+
 .GoingButton{
     background-color: #ff7600;      
     color: white;
     font-weight: bold;
     font-size: large;        
 }
-.ActionArea{
-    display: flex;   
-    align-items: center;
-    margin-right: 1rem;
-    margin-left: 1rem;
-}
 .GoingButton:hover{
     background-color: orangered;
 }
+
 .ExpendButton{   
-    /* position: relative;
+    position: absolute;
     right: 0;
-    bottom: 0;  */    
+    bottom: 0;
+    /* align-self:flex-end; */
     
     padding: 0;   
     border: 0;
@@ -61,7 +73,6 @@ h1,h2,h3,h4,h5,h6{
 }
 .ExpendButton:hover{
     font-weight: bold;
-    align-self: center;
 }
 
 button{
