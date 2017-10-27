@@ -43,8 +43,6 @@ h1,h2,h3,h4,h5,h6{
 .ActionArea{
     display: flex;   
     align-items: center;
-   
-    /*justify-content: center; */
        
     margin-right: 1rem;
     margin-left: 1rem; 
@@ -63,12 +61,11 @@ h1,h2,h3,h4,h5,h6{
 .ExpendButton{   
     position: absolute;
     right: 0;
-    bottom: 0;
-    /* align-self:flex-end; */
-    
+    bottom: 0;        
     padding: 0;   
     border: 0;
     margin: 0;
+    
     background-color: initial;
 }
 .ExpendButton:hover{
