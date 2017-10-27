@@ -2,7 +2,7 @@
 
 <ul class="GigsList">
     <li *ngFor="let gig of gigs; let RowIndex = index" class="GigCard">
-        <img src= {{gig.ImageURL}} class="Thumbnail" alt="gigImage">
+        <img class="Thumbnail" alt="gigImage" src= {{gig.ImageURL}} />
         <div class="GigDetails">
             <h3>
                 <a class="ArtistLink" href='#'>{{gig.Artist}}</a>
@@ -14,8 +14,11 @@
         <div class="ActionArea">
             <button type="button" class="btn GoingButton">Going?</button>             
         </div>   
-        <button class="material-icons ExpendButton" type="button" data-toggle="collapse" [attr.data-target]="'#collapseId'+RowIndex"
-        aria-expanded="false" aria-controls="'#collapseId'+RowIndex">expand_more</button>               
+        <button class="ExpendButton material-icons" type="button" 
+            data-toggle="collapse" [attr.data-target]="'#collapseId'+RowIndex" 
+            aria-expanded="false" aria-controls="'#collapseId'+RowIndex">
+            expand_more
+        </button>               
     </li>
 </ul>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
