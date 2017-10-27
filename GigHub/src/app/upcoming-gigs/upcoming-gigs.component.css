@@ -12,10 +12,8 @@ h1,h2,h3,h4,h5,h6{
 .GigCard{
     background-color:#FFE6CC;
     color: black;
-    margin-bottom: 1em;
-    display: -webkit-flex;
+    margin-bottom: 1em;   
     display: flex;
-    position: relative;     
 }
 .GigCard:hover{
     border: 1px solid orange;    
@@ -23,6 +21,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .GigDetails{
     margin-left: 1em;
+    flex-grow: 1;
 }
 .ArtistLink{
     font-weight: bold;
@@ -36,25 +35,24 @@ h1,h2,h3,h4,h5,h6{
     height: 100px;
 }
 .GoingButton{
-    background-color: #ff7600;   
-
-    position: absolute;      
-    right: 2%;
-    top: 50%;    
-    -ms-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-
+    background-color: #ff7600;      
     color: white;
     font-weight: bold;
-    font-size: large;    
+    font-size: large;        
+}
+.ActionArea{
+    display: flex;   
+    align-items: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 .GoingButton:hover{
     background-color: orangered;
 }
 .ExpendButton{   
-    position: absolute;
+    /* position: relative;
     right: 0;
-    bottom: 0;
+    bottom: 0;  */    
     
     padding: 0;   
     border: 0;
@@ -63,6 +61,7 @@ h1,h2,h3,h4,h5,h6{
 }
 .ExpendButton:hover{
     font-weight: bold;
+    align-self: center;
 }
 
 button{

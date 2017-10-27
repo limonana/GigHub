@@ -11,11 +11,13 @@
             <div>{{gig.Time}}</div>
             <div class="collapse" id=collapseId{{RowIndex}}>{{gig.Description}}</div>
         </div>
-        <button type="button" class="btn GoingButton">Going?</button>
-        <button class="material-icons ExpendButton" type="button" data-toggle="collapse" [attr.data-target]="'#collapseId'+RowIndex" aria-expanded="false" aria-controls="'#collapseId'+RowIndex">                
-            expand_more
-        </button>
+        <div class="ActionArea">
+            <button type="button" class="btn GoingButton">Going?</button>
+            <!-- <button class="material-icons ExpendButton" type="button" data-toggle="collapse" [attr.data-target]="'#collapseId'+RowIndex"
+                aria-expanded="false" aria-controls="'#collapseId'+RowIndex">
+                expand_more
+            </button> -->
+        </div>
     </li>
 </ul>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
