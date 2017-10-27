@@ -2,7 +2,7 @@
     background-color:#FFE6CC;
     color: black;
     
-    margin-bottom: 1rem;   
+    margin: inherit;
     
     display: flex;
     position: relative;
