@@ -1,7 +1,7 @@
 <h1>Upcoming Gigs</h1>
 
-<ul class="GigsList">
-    <li *ngFor="let gig of gigs; let RowIndex = index" class="GigCard">
+<div>
+    <div *ngFor="let gig of gigs; let RowIndex = index" class="GigCard">
         <img class="Thumbnail" alt="gigImage" src= {{gig.ImageURL}} />
         <div class="GigDetails">
             <h3>
@@ -19,6 +19,6 @@
             aria-expanded="false" aria-controls="'#collapseId'+RowIndex">
             expand_more
         </button>               
-    </li>
-</ul>
+    </div>
+</div>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
