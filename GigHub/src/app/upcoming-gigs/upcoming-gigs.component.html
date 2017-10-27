@@ -1,24 +1,6 @@
 <h1>Upcoming Gigs</h1>
 
-<div>
-    <div *ngFor="let gig of gigs; let RowIndex = index" class="GigCard">
-        <img class="Thumbnail" alt="gigImage" src= {{gig.ImageURL}} />
-        <div class="GigDetails">
-            <h3>
-                <a class="ArtistLink" href='#'>{{gig.Artist}}</a>
-            </h3>
-            <div>{{gig.Location}}</div>
-            <div>{{gig.Time}}</div>
-            <div class="collapse" id=collapseId{{RowIndex}}>{{gig.Description}}</div>
-        </div>
-        <div class="ActionArea">
-            <button type="button" class="btn GoingButton">Going?</button>             
-        </div>   
-        <button class="ExpendButton material-icons" type="button" 
-            data-toggle="collapse" [attr.data-target]="'#collapseId'+RowIndex" 
-            aria-expanded="false" aria-controls="'#collapseId'+RowIndex">
-            expand_more
-        </button>               
-    </div>
+<div>  
+    <app-gig-card *ngFor="let gig of gigs" [gig]=gig></app-gig-card>
 </div>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
