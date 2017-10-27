@@ -6,14 +6,13 @@
       </h3>
       <div>{{gig.Location}}</div>
       <div>{{gig.Time}}</div>
-      <div class="collapse" id={{collpseId}}>{{gig.Description}}</div>
+      <div  id={{collpseId}} class="collapse">{{gig.Description}}</div>
   </div>
   <div class="ActionArea">
       <button class="GoingButton btn" type="button">Going?</button>             
   </div>   
   <button class="ExpendButton material-icons" type="button" 
-  data-toggle="collapse" [attr.data-target]=collpseId
-  aria-expanded="false" aria-controls="?">
+  data-toggle="collapse" [attr.data-target]= "'#'+collpseId" >
   expand_more
 </button>                
 </div>
