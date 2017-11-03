@@ -1,15 +1,16 @@
-.navbarBackground{
-    background-color: orangered;
-    color: white;
+.bar{
+    background-color: orangered;    
     border:none;
-    border-radius: 0;
-   
+    border-radius: 0;   
+    color: white;
+    font-family: cursive;
 }
+
 .navbar-nav > li > a{
-    color: inherit;
+    font-size: 1.8rem;
+    color: inherit;        
 }
 .navbar-brand{
     color: inherit;
-    font-size: 2.5rem;
-    font-family: cursive;
+    font-size: 3rem;    
 }
