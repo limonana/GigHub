@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Gig } from '../../model/Gig'; // don't like this
+import { Gig } from 'app/model/Gig';
 
 @Component({
   selector: 'app-gig-card',
