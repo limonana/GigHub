@@ -2,3 +2,7 @@ h1{
     color:#FF8000;
     text-transform: capitalize;
 }
+app-gig-card{
+    margin-bottom: 1rem;
+    display: block;
+}
