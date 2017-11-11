@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { Gig } from 'app/model/Gig';
 
 @Component({
@@ -6,14 +6,10 @@ import { Gig } from 'app/model/Gig';
   templateUrl: './gig-card.component.html',
   styleUrls: ['./gig-card.component.css']
 })
-export class GigCardComponent implements OnInit {
+export class GigCardComponent {
   @Input() gig: Gig;
   collpseId: string;
   constructor() {
     this.collpseId = Math.random().toString(36).substring(7);
   }
-
-  ngOnInit() {
-  }
-
 }
