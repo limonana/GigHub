@@ -1,8 +1,6 @@
 .GigCard{
     background-color:#FFE6CC;
-    color: black;
-    
-    margin: inherit;
+    color: black;    
     
     display: flex;
     position: relative;
