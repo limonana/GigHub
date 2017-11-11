@@ -14,7 +14,10 @@ const MockGigs: Gig[] = [
   { Artist: 'taylor swift', Location: 'US Califronia bla bla Hall', Time: 'TODAY 6:00 PM', Genre: '', 
   Description: 'fsdfds fdsds fe sd ', ImageURL: 'https://i.scdn.co/image/54969dd8c24693d05c8445c0de4ad74a719f1d65' },
   { Artist: 'taylor swift', Location: 'US Califronia bla bla Hall', Time: 'TODAY 6:00 PM', Genre: '', 
-  Description: 'fdsf fds fds fds', ImageURL: 'https://i.scdn.co/image/54969dd8c24693d05c8445c0de4ad74a719f1d65' },
+  Description: `some multiline long description
+  ngfdkjngkjfd lgknlkfdnmglkdf
+  ngkdnflkgndf lkdnglkdfn`, 
+  ImageURL: 'https://i.scdn.co/image/54969dd8c24693d05c8445c0de4ad74a719f1d65' },
 ];
 
 @Component({

@@ -6,6 +6,7 @@
     
     display: flex;
     position: relative;
+    
 }
 .GigCard:hover{
     border: 1px solid orange;    
@@ -35,6 +36,9 @@
        
     margin-right: 1rem;
     margin-left: 1rem; 
+}
+.Description{
+    white-space: pre-wrap;
 }
 
 .GoingButton{
