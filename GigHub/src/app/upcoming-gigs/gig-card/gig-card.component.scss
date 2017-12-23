@@ -1,20 +1,23 @@
+@import '~sass/variables';
+
 .GigCard{
-    background-color:#FFE6CC;
-    color: black;    
+    background-color:$lightOrange;
+    color: $textColorDark;    
     
     display: flex;
     position: relative;
     
 }
+
 .GigCard:hover{
-    border: 1px solid orange;    
-    box-shadow: 5px 5px 5px #aaaaaa;
+    border: 1px solid $lightOrangeBorder;    
+    box-shadow: 5px 5px 5px $lightGray;
 }
 
 
 .GigDetails{
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: $margin;
+    margin-right: $margin;
     flex-grow: 1;
 }
 .ArtistLink{
@@ -24,31 +27,33 @@
     color: inherit;
     text-transform: capitalize;
 }
+$ThumbnailSize : 100px;
 .Thumbnail{
-    width: 100px;
-    height: 100px;
+    width: $ThumbnailSize;
+    height: $ThumbnailSize;
 }
 .ActionArea{
     display: flex;   
     align-items: center;
        
-    margin-right: 1rem;
-    margin-left: 1rem; 
+    margin-right: $margin;
+    margin-left: $margin; 
 }
 .Description{
     white-space: pre-wrap;
 }
 
 .GoingButton{
-    background-color: #ff7600;      
-    color: white;
+    background-color: $mainColor1;      
+    color: $textColorLight;
     font-weight: bold;
     font-size: large;        
 }
 .GoingButton:hover{
-    background-color: orangered;
+    background-color: $mainColor2;
 }
 
+$transparent : rgba(0, 0, 0, 0);
 .ExpendButton{   
     position: absolute;
     right: 0;
@@ -57,7 +62,7 @@
     border: 0;
     margin: 0;
 
-    background: rgba(76, 175, 80, 0); /*TRANSPERT BAKCGORUND*/
+    background: $transparent;
 }
 .ExpendButton:hover{
     font-weight: bold;

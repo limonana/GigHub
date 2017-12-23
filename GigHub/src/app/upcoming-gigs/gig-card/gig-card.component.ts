@@ -4,7 +4,7 @@ import { Gig } from 'app/model/Gig';
 @Component({
   selector: 'app-gig-card',
   templateUrl: './gig-card.component.html',
-  styleUrls: ['./gig-card.component.css']
+  styleUrls: ['./gig-card.component.scss']
 })
 export class GigCardComponent {
   @Input() gig: Gig;

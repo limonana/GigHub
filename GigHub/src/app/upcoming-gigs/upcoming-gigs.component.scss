@@ -1,5 +1,6 @@
+@import '~sass/variables';
 h1{
-    color:#FF8000;
+    color:$mainColor1;
     text-transform: capitalize;
 }
 app-gig-card{

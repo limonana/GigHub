@@ -23,7 +23,7 @@ const MockGigs: Gig[] = [
 @Component({
   selector: 'app-upcoming-gigs',
   templateUrl: './upcoming-gigs.component.html',
-  styleUrls: ['./upcoming-gigs.component.css']
+  styleUrls: ['./upcoming-gigs.component.scss']
 })
 
 

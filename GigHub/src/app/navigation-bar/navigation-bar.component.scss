@@ -1,9 +1,11 @@
+@import '~sass/variables';
+
 .bar{
-    background-color: orangered;    
+    background-color:$mainColor2;    
     border:none;
     border-radius: 0;   
-    color: white;
-    font-family: cursive;
+    color: $textColorLight;
+    font-family: $headerFont;
 }
 
 .navbar-nav > li > a{
